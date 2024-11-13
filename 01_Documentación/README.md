@@ -1,2 +1,2 @@
-# 2567_G8_ACSW
+# Documentación
 Aseguramiento de la Calidad del Sofware
