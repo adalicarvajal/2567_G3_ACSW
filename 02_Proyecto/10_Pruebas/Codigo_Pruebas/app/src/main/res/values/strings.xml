@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Seguimiento a Graduados IASA</string>
+
+    <string name="todo">TODO</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_surname">Apellido</string>
+    <string name="txt_phone">Nro de teléfono</string>
+    <string name="txt_email">Correo electrónico</string>
+    <string name="txt_birthday">Cumpleaños</string>
+    <string name="txt_addPerson">Agregar nueva persona</string>
+    <string name="txt_register">Registrar</string>
+    <string name="txt_enter">Ingresar</string>
+    <string name="hint_latitud">latitud</string>
+    <string name="hint_longitud">longitud</string>
+    <string name="txt_age">Edad:</string>
+    <string name="txt_id">Cédula:</string>
+    <string name="txt_password">Contraseña:</string>
+
+
+
+</resources>

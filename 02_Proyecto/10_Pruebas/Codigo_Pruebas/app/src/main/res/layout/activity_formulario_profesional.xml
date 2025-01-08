@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+    android:background="@drawable/fondo_principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#96000000">
+
+        <!-- Lista de opciones -->
+        <CheckBox
+            android:id="@+id/checkBoxProductor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Productor agropecuario" />
+
+        <CheckBox
+            android:id="@+id/checkBoxEmprendimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emprendimiento propio" />
+
+        <CheckBox
+            android:id="@+id/checkBoxEmpleadoPrivado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empleado privado" />
+
+        <CheckBox
+            android:id="@+id/checkBoxEmpleadoPublico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empleado público" />
+
+        <CheckBox
+            android:id="@+id/checkBoxComercializacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comercialización de productos agro veterinarios" />
+
+        <CheckBox
+            android:id="@+id/checkBoxExportacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exportación de productos agropecuarios" />
+
+        <CheckBox
+            android:id="@+id/checkBoxIndustrializacionAgricola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Industrialización de productos agrícolas" />
+
+        <CheckBox
+            android:id="@+id/checkBoxIndustrializacionPecuarios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Industrialización de productos pecuarios" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAsistenciaTecnica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asistencia técnica" />
+
+        <CheckBox
+            android:id="@+id/checkBoxDocencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Docencia" />
+
+        <CheckBox
+            android:id="@+id/checkBoxInvestigacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Investigación" />
+
+        <!-- Otros -->
+        <CheckBox
+            android:id="@+id/checkBoxOtros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otros" />
+
+        <EditText
+            android:id="@+id/editTextOtros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa otros detalles"
+            android:visibility="gone" />
+
+        <!-- Botones -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/botonGuardar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Guardar"
+                android:textColor="@color/white"
+                android:backgroundTint="#43a047"/>
+
+            <Button
+                android:id="@+id/botonRegresar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Regresar"
+                android:textColor="@color/white"
+                android:backgroundTint="#43a047"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+

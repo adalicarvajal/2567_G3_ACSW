@@ -1,0 +1,99 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+
+}
+
+android {
+    namespace 'com.alex.ultim2'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.alex.ultim2"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testApplicationId "com.alex.ultim2.test"
+        //testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.alex.ultim2.test.Instrumentation"
+    }
+    sourceSets {
+        androidTest {
+            assets.srcDirs = ['src/androidTest/assets']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    /*implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'*/
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
+    implementation'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:23.0.2'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //nuevas implementaciones
+    implementation platform('com.google.firebase:firebase-bom:32.2.3')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging-ktx'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation "com.airbnb.android:lottie:3.5.0"
+    //Agregar la dependencia de Places API en tu archivo
+    implementation 'com.google.android.libraries.places:places:2.5.0'
+    //
+    //dependecias de cucumber
+    // Dependencia de Cucumber para Android
+    //implementation 'io.cucumber:cucumber-android:7.10.0'
+    // Dependencia de Cucumber para JUnit
+    //descomentar
+    //testImplementation 'io.cucumber:cucumber-java:7.11.0'
+    //testImplementation 'io.cucumber:cucumber-junit:7.11.0'
+    //descomentar
+    // Dependencias para Cucumber
+    //implementation 'io.cucumber:cucumber-java:7.12.0'
+    //implementation 'io.cucumber:cucumber-android:7.12.0'
+
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'info.cukes:cucumber-android:1.2.5@jar'
+    androidTestImplementation 'info.cukes:cucumber-picocontainer:1.2.4'
+
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-web:3.1.1'
+
+
+    
+
+
+}
+

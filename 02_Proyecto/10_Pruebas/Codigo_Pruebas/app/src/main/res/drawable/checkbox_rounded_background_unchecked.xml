@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#CCCCCC" /> <!-- Color de fondo del checkbox cuando no está seleccionado -->
+    <corners android:radius="8dp" /> <!-- Radio de las esquinas -->
+</shape>

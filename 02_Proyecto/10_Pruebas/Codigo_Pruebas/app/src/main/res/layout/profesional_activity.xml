@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- actividad_profesional.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_principal"
+
+    android:padding="16dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6606dd0f"
+    tools:ignore="Orientation"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="ACTIVIDAD PROFESIONAL" />
+
+    <TextView
+        android:id="@+id/textViewTítulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Formación de Postgrados"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_formacion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+
+        />
+    <TextView
+        android:id="@+id/textViewActividad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Actividad Profesional"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_actividadp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+
+         />
+    <TextView
+        android:id="@+id/textViewAgricola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Área actividad agrícola"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_agricola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+
+         />
+    <TextView
+        android:id="@+id/textViewPecuaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Área actividad pecuaria"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_pecuaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+
+        />
+    <TextView
+        android:id="@+id/textViewConferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Disponibilidad para conferencias"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_conferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        />
+    <TextView
+        android:id="@+id/textViewPasantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Posibilidad de pasantes"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_pasantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        />
+    <TextView
+        android:id="@+id/textViewCapacitacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="Necesidad de Capacitación"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/border"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_capacitacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_margin="1dp"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar al Menú Pincipal"
+        android:backgroundTint="#43a047"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
+
+
+</ScrollView>

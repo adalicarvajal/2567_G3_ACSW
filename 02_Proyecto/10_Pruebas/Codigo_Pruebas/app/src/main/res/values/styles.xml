@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+<resources>
+
+    <!-- Otros estilos aquí -->
+
+    <!-- Estilo para el cuadro de diálogo -->
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@android:color/white</item> <!-- Fondo blanco -->
+        <item name="android:textColor">@android:color/black</item> <!-- Texto negro -->
+        <item name="android:textSize">16sp</item> <!-- Tamaño del texto -->
+        <item name="android:padding">16dp</item> <!-- Margen interior -->
+
+    </style>
+
+</resources>

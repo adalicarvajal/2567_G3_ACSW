@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/fondo_principal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#96000000">
+
+         <CheckBox
+             android:textColor="@color/white"
+            android:id="@+id/checkBoxBovinosLeche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bovinos leche"
+             />
+
+        <CheckBox
+
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxBovinosCarne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bovinos carne" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxPorcinos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porcinos" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxBovinosDobleProposito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bovinos doble propósito" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxRumiantesMenores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rumiantes menores" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxEspeciesMenores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Especies menores" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxAviculturaPonedoras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avicultura ponedoras" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxAviculturaBroilers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avicultura broilers" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxAcuiculturaAguaDulce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acuicultura agua dulce" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxAcuiculturaTropical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acuicultura tropical" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxPastosForrajes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pastos y forrajes" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxNutricionAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nutrición animal" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxReproduccionAnimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reproducción animal" />
+
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxSanidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sanidad" />
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxDesarrolloEvaluacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desarrollo y evaluación de proyectos" />
+
+        <!-- Otros -->
+        <CheckBox
+            android:textColor="@color/white"
+            android:id="@+id/checkBoxOtros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otros" />
+
+        <EditText
+            android:textColor="@color/white"
+            android:id="@+id/editTextOtros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa otros detalles"
+            android:visibility="gone" />
+
+        <!-- Botones -->
+        <LinearLayout
+
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/botonGuardar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Guardar"
+                android:textColor="@color/white"
+                android:backgroundTint="#43a047"/>
+
+            <Button
+                android:id="@+id/botonRegresar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Regresar"
+                android:textColor="@color/white"
+                android:backgroundTint="#43a047"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
